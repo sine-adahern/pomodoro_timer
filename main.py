@@ -80,7 +80,7 @@ class PomodoroApp:
         self.window.update_mode_display(mode_text)
         
         # Pause button
-        self.window.update_pause_button(self.timer.paused)
+        self.window.update_pause_button(self.timer.running, self.timer.paused)
         
         # Progress bar
         progress = self.timer.get_progress()

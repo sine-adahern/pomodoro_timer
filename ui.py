@@ -386,9 +386,12 @@ class MainWindow(QMainWindow):
         """Update the mode label."""
         self.mode_label.setText(mode)
     
-    def update_pause_button(self, is_paused: bool) -> None:
+    def update_pause_button(self, is_running: bool, is_paused: bool) -> None:
         """Update pause button text."""
-        self.pause_button.setText("resume" if is_paused else "pause")
+        if is_running and not is_paused:
+            self.pause_button.setText("pause")
+        else:
+            self.pause_button.setText("start")
     
     def update_progress(self, progress: float) -> None:
         """Update the progress bar."""
