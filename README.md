@@ -1,16 +1,15 @@
 # Pomodoro Timer
 
-A beautiful desktop Pomodoro timer built with Python and PySide6 (Qt for Python).
+A desktop Pomodoro timer built with Python and PySide6 (Qt for Python).
 
 ## Features
 
-- **Clean, Modern UI**: Soft pink pastel theme with customizable colors
 - **Pomodoro Method**: Alternates between study and break sessions
 - **Accurate Time Tracking**: Uses monotonic time to avoid drift
 - **Total Study Time**: Tracks and displays cumulative study time
 - **Customizable Themes**: Choose from Pink, Blue, Green presets or create custom colors
 - **Persistent Settings**: All configurations and total time are saved locally
-- **Progress Bar**: Visual progress indicator for current session
+- **Progress Bar**: Progress indicator for current session
 - **Auto-switching**: Automatically switches between study and break modes
 
 ## Requirements
@@ -73,9 +72,9 @@ pomodoro_timer/
 
 ### Themes
 Click "Theme" in the header to choose:
-- **Pink** (default): Soft pink pastel
-- **Blue**: Calm blue tones
-- **Green**: Fresh green colors
+- **Pink** (default): pink pastel
+- **Blue**: blue tones
+- **Green**: green colors
 - **Custom**: Pick your own colors for background, card, accent, and progress
 
 ### Time Configuration
